@@ -27,3 +27,4 @@ while count < chance:
         print("{} 보다 큰 숫자 입니다." .format(user_input))
     elif int(user_input) > number:
         print("{} 보다 작은 숫자 입니다." .format(user_input))
+     

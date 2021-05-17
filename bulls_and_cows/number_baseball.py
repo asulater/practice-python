@@ -42,3 +42,5 @@ while count_strike < 3:
                 output += " {} 볼!!" .format(count_ball)
 
             print(output)
+
+  
