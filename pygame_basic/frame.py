@@ -12,4 +12,7 @@ pygame.display.set_caption("Game") # Game title
 # Event Loop
 running = True 
 while running:
-    pass
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: # Close windows
+            running = False
+
