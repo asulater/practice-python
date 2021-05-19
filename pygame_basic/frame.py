@@ -7,3 +7,9 @@ screen_height = 640
 screent = pygame.display.set_mode((screen_width, screen_height))
 
 # set display title 
+pygame.display.set_caption("Game") # Game title
+
+# Event Loop
+running = True 
+while running:
+    pass
